@@ -1,0 +1,7 @@
+name: Protector
+version: ${project.version}
+main: net.gigaclub.protector.Main
+api-version: 1.13
+authors: [KevTVKevin]
+description: Ein Protection Plugin für GigaClub.net
+website: https://gigaclub.net
