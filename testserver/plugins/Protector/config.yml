@@ -1,0 +1,13 @@
+BlockedCommands:
+- /pl
+- /plugins
+- /help
+- /bukkit
+- /bukkit:?
+- /bukkit:about
+- /bukkit:pl
+- /bukkit:plugins
+- /bukkti:ver
+- /bukkit:version
+- /me
+- /?
