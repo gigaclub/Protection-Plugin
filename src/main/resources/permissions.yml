@@ -1,0 +1,3 @@
+see.blocked.commands:
+  description: Das Recht um geblockte Befehle auszuführen.
+  default: op

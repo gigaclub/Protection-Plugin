@@ -15,7 +15,7 @@ public class CommandListener implements Listener {
         Player player = event.getPlayer();
 
         for(String command : Main.getPlugin().getConfig().getStringList("BlockedCommands")) {
-            if (message.startsWith(command) && !player.isOp()) {
+            if (message.startsWith(command) && !player.hasPermission("see.blocked.commands")) {
                 player.sendMessage(ChatColor.RED + "Du hast keine Berechtigung diesen Command auszuführen!");
                 event.setCancelled(true);
                 break;
